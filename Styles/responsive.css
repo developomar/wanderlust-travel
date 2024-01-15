@@ -54,6 +54,24 @@
     nav {
         padding-top: 0;
     }
+
+    .popular-tour-container {
+        margin-top: 50px;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .popular-tour-container-left {
+        width: 100%;
+    }
+
+    .popular-tour-container-right {
+        width: 100%;
+    }
+
+
 }
 
 
@@ -100,6 +118,22 @@
 
     .search-button {
         width: 255px;
+    }
+
+    .popular-tour-container {
+        margin-top: 24px;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+    .primary-title {
+        font-size: 20px;
+    }
+
+    .primary-text {
+        font-size: 14px;
     }
 
 
