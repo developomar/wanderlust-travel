@@ -146,6 +146,27 @@
     width: 100%;
 }
 
+.video-container {
+    margin-top: 24px;
+    flex-direction: column;
+}
+
+.video-container-left {
+    width: 100%;
+}
+
+.video-container-right {
+    width: 100%;
+    
+}
+
+.video-container-right iframe {
+    border-radius: 8px;
+    width:100%; 
+   height: 315px;
+}
+
+
 
 
 }
@@ -309,7 +330,7 @@
     font-size: 16px;
 }
 
-.book-now-btn {
+.book-now-btn, .all-package-button {
     margin-top: 16px;
     padding: 9px 20px 9px 20px;
     font-size: 18px;
