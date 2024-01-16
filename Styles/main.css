@@ -319,6 +319,74 @@ nav {
     grid-area: seventh
 }
 
+/* --------------service sectiion styles-------------- */
+.services-container {
+    margin-top: 100px;
+}
+
+.services-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.services-container p {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+   align-content: center;
+}
+
+
+
+
+.services-card-1 {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid #fbb56333;
+    background: #fbb5630d;
+    width: calc(50% - 12px);
+}
+.services-card-2 {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: calc(50% - 12px);
+    
+}
+.services-card-3 {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: calc(50% - 12px);
+
+}
+
+.card-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px 0;
+}
+
+.services-card-container p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
