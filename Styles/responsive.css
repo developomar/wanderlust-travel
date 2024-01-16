@@ -17,6 +17,11 @@
         margin: 24px 30px;
     }
 
+    .footer {
+        padding: 30px 30px 30px;
+        
+    }
+
 
 }
 
@@ -102,6 +107,20 @@
 
 }
     
+.subsribe-container {
+    margin-top: 24px;
+    flex-direction: column;
+}
+
+.subscribe-container-left {
+    width: 100%;
+
+}
+
+.subscribe-container-right {
+    width: 100%;
+    min-height: 422px;
+}
 
 
 }
@@ -212,6 +231,35 @@
     font-size: 20px;
     font-weight: 800;
     margin: 16px 0 16px 0;
+}
+
+.offer-box {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 10.569px;
+    margin: 0 4px 30px 0;
+
+}
+
+.offer-title {
+    font-size: 15.854px;
+
+}
+
+
+.offer-descripton {
+    font-size: 21.138px;
+   
+}
+
+
+.footer-title img {
+    width: 29px;
+}
+
+.footer-title h3 {
+    font-size: 21.543px;
 }
 
 

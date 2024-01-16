@@ -381,6 +381,176 @@ nav {
 }
 
 
+/* -----------subscribe-sectin styles---------- */
+
+.subsribe-container {
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+   
+}
+
+.subscribe-container-left {
+    padding: 40px 41px 40px 40px;
+    width: calc(40% - 12px);
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.subscribe-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+   
+}
+
+.subscribe-container-left p {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);;
+}
+
+.subscribe-container-left form {
+    margin-top: 24px;
+}
+
+.subscribe-container-left form input {
+    display: block;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    outline: 0;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.subscribe-container-left form button {
+    width: 100%;
+    padding: 16px 20px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+
+}
+
+.subscribe-container-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: calc(60% - 12px);
+    border-radius: 16px;
+    background: url('../Asssets/Rectangle\ 8\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.offer-box {
+    width: 324px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    margin: 0 4px 47px 0;
+
+    
+
+
+}
+
+.offer-title {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 400;
+
+}
+
+
+.offer-descripton {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* ----------footer styles------- */
+
+.footer {
+    max-width: 1440px;
+    margin: 100px auto 0;
+    padding: 110px 184px;
+    background: #1313180d;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 15px;
+    
+}
+
+.footer-title h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.footer-title h3 span {
+    color: #FF5400;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 32px 0 50px 0;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.social-link img {
+    transition: 0.5s;
+}
+
+.social-link img:hover {
+    transform: translateY(-5px);
+}
+
+.copy-right-text {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+
+
 
 
 
