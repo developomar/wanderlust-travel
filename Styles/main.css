@@ -334,7 +334,6 @@ nav {
 }
 
 .discount-1 {
-    min-height: 700px;
     background: url('../Asssets/Group\ 39.png');
     background-size: cover;
     background-position: center;
@@ -346,7 +345,6 @@ nav {
 
 }
 .discount-2 {
-    min-height: 700px;
     background: url('../Asssets/Group\ 40.png');
     background-size: cover;
     background-position: center;
@@ -356,7 +354,6 @@ nav {
     justify-content: flex-start;
 }
 .discount-3 {
-    min-height: 700px;
     background: url('../Asssets/Group\ 39.png');
     background-size: cover;
     background-position: center;
