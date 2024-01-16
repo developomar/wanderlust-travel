@@ -179,8 +179,101 @@ nav {
 }
 
 
+
+
 /* ----------------main section style------------ */
 
+
+/* --------category section  styles------- */
+.catagory-container {
+    margin: 100px;
+    text-align: center;
+}
+
+.catagory-container h2 {
+    margin: 0 0 24px 0;
+}
+.catagory-container p {
+    padding: 0 0 24px 0;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);;
+}
+
+.catagory-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.catagory-title {
+    color: #FFFfff;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.catargory {
+    width: 120px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#catagory-1  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Solo\ Travel.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+#catagory-2  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/mount\ travel.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+#catagory-3  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/jungle\ travel.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+#catagory-4  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Road\ Travel.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+#catagory-5  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Ossian\ travel.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+#catagory-6  {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Old\ city.png');
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+/* ---------popular tour section style------- */
 .popular-tour-container {
     margin-top: 100px;
     display: flex;
@@ -336,7 +429,7 @@ nav {
 }
 
 .discount-1 {
-    background: url('../Asssets/Group\ 39.png');
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Kashmir.png');
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -345,9 +438,10 @@ nav {
     justify-content: flex-end;
 
 
+
 }
 .discount-2 {
-    background: url('../Asssets/Group\ 40.png');
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/Langkawi.png');
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -356,7 +450,7 @@ nav {
     justify-content: flex-start;
 }
 .discount-3 {
-    background: url('../Asssets/Group\ 39.png');
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Asssets/cox\'s\ bazar.png');
     background-size: cover;
     background-position: center;
     border-radius: 16px;

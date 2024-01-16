@@ -34,6 +34,10 @@
         margin-bottom: 16px;
     }
 
+    .catagory-container {
+        padding: 0 30px;
+    }
+
 
 
 }
@@ -344,6 +348,10 @@
 
 .video-container-left ul li{
     font-size: 14px;
+}
+
+.catagory-container {
+    margin-top: 24px;
 }
 
 
