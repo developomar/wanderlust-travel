@@ -319,17 +319,147 @@ nav {
     grid-area: seventh
 }
 
+/* deals and discount section styles */
+
+.discount-container {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.discount-container .primary-text {
+    margin-top: 24px;
+}
+
+.discount-1 {
+    min-height: 700px;
+    background: url('../Asssets/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 56px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.discount-2 {
+    min-height: 700px;
+    background: url('../Asssets/Group\ 40.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 56px;
+    display: flex;
+    justify-content: flex-start;
+}
+.discount-3 {
+    min-height: 700px;
+    background: url('../Asssets/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.disount-detail-container {
+    width: 50%;
+    padding: 52px 50px 50px;
+    text-align: left;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+
+}
+
+.discount-info {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.discount-info h4 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discount-info img {
+    width: 24px;
+}
+
+
+
+.days, .peoples, .location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 26px;
+}
+
+.discount-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+.disount-detail-container .primary-text {
+    margin-top: 16px;
+}
+
+.discount-price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.book-now-btn {
+    margin-top: 24px;
+    padding: 14px 25px 13px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------service sectiion styles-------------- */
 .services-container {
     margin-top: 100px;
+    text-align: center;
 }
 
 .services-container h2 {
-    text-align: center;
     margin-bottom: 24px;
 }
 .services-container p {
-    text-align: center;
     margin-bottom: 48px;
 }
 
@@ -339,6 +469,7 @@ nav {
     gap: 24px;
     justify-content: center;
    align-content: center;
+   
 }
 
 
@@ -350,6 +481,7 @@ nav {
     border: 1px solid #fbb56333;
     background: #fbb5630d;
     width: calc(50% - 12px);
+    text-align: left;
 }
 .services-card-2 {
     padding: 32px 55px 32px 32px;
@@ -357,6 +489,7 @@ nav {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     width: calc(50% - 12px);
+    text-align: left;
     
 }
 .services-card-3 {
@@ -365,6 +498,7 @@ nav {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: calc(50% - 12px);
+    text-align: left;
 
 }
 

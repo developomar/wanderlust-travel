@@ -22,6 +22,19 @@
         
     }
 
+    .discount-info {
+        gap: 8px;
+    }
+    
+    
+    .days, .peoples, .location {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+
 
 }
 
@@ -123,7 +136,19 @@
 }
 
 
+.discount-1, .discount-2, .discount-3 {
+    justify-content: center;
+    align-items: end;
 }
+
+.disount-detail-container {
+    width: 100%;
+}
+
+
+
+}
+
 
 
 
@@ -260,6 +285,39 @@
 
 .footer-title h3 {
     font-size: 21.543px;
+}
+
+.disount-detail-container {
+    padding: 26px 25px 26px;
+
+}
+
+
+.discount-1, .discount-2, .discount-3 {
+    min-height: 600px;
+    padding: 16px;
+   
+
+}
+
+.discount-title {
+    font-size: 20px;
+}
+
+.discount-price {
+    font-size: 16px;
+}
+
+.book-now-btn {
+    margin-top: 16px;
+    padding: 9px 20px 9px 20px;
+    font-size: 18px;
+    
+}
+
+.discount-container {
+    margin-top: 24px;
+    gap: 16x;
 }
 
 
